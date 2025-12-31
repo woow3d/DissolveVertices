@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Dissolve 2-Edge Vertices",
-    "author": "Simple Code",
+    "author": "woow3d",
     "version": (1, 0, 0),
     "blender": (4, 0, 0),
     "location": "Edit Mode > Vertex",
@@ -27,9 +27,13 @@ class MESH_OT_dissolve_two_edge_verts(bpy.types.Operator):
         bm = bmesh.from_edit_mesh(mesh)
 
         bm.verts.ensure_lookup_table()
+        selected_verts = [v for v in bm.verts if v.select]
 
+        if not selected_verts:
+            self.report({'INFO'}, "لم يتم تحديد أي Vertex")
+            return {'CANCELLED'}
         verts_to_dissolve = [
-            v for v in bm.verts
+            v for v in selected_verts
             if len(v.link_edges) == 2
         ]
 
