@@ -1,6 +1,6 @@
 # Dissolve 2-Edge Vertices
 
-![Preview](imegas/view.jpg)
+![Preview](images/view.jpg)
 
 A Blender add-on that dissolves **selected vertices** connected to exactly two edges, helping clean up mesh topology efficiently.
 
@@ -38,3 +38,5 @@ woow3d
 
 ## License
 GPL-3.0
+
+---

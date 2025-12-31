@@ -1,11 +1,19 @@
 bl_info = {
     "name": "Dissolve 2-Edge Vertices",
     "author": "woow3d",
-    "version": (1, 0, 0),
-    "blender": (4, 0, 0),
-    "location": "Edit Mode > Vertex",
-    "description": "Dissolve vertices connected to exactly two edges",
+    "version": [1, 0, 0],
+    "blender": [4, 0, 0],
     "category": "Mesh",
+    "description": {
+        "en": "Dissolves selected vertices connected to exactly two edges, helping clean up mesh topology efficiently.",
+        "ar": "تحذف الرؤوس المحددة المتصلة بحافتين فقط للمساعدة في تنظيف التوبولوجي وتحسين بنية المجسم."
+    },
+    "license": "GPL-3.0",
+    "online_access": false,
+    "requires": [],
+    "contributors": [],
+    "copyright": "woow3d",
+    "thumbnail": "images/view.png"
 }
 
 import bpy
