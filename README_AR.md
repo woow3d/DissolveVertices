@@ -1,6 +1,6 @@
 # Dissolve 2-Edge Vertices
 
-![Preview](imegas/view.jpg)
+![Preview](https://github.com/woow3d/DissolveVertices/blob/main/imegas/view.jpg)
 
 إضافة لبرنامج Blender تقوم بحذف (Dissolve) **الرؤوس المحددة فقط** المتصلة بحافتين، للمساعدة في تنظيف التوبولوجي وتحسين بنية المجسم.
 
