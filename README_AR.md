@@ -1,6 +1,6 @@
 # Dissolve 2-Edge Vertices
 
-![Preview](images/view.jpg)
+![view](https://github.com/user-attachments/assets/0e2433d6-c0a0-4801-a9da-57f2dbfa5d08)
 
 إضافة لبرنامج Blender تقوم بحذف (Dissolve) **الرؤوس المحددة فقط** المتصلة بحافتين، للمساعدة في تنظيف التوبولوجي وتحسين بنية المجسم.
 
